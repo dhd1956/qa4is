@@ -1,0 +1,10 @@
+{
+    "name": "Python: Django",
+    "type": "python",
+    "request": "attach",
+    "connect": {
+        "host": "localhost",
+        "port": 5678
+    },
+    "django": true
+}

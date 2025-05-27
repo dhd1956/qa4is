@@ -1,0 +1,16 @@
+"""
+<table>
+    <thead>
+        <tr>
+            {% for field in model_fields % }
+            <th>{{ field.verbose_name|title }}</th>
+            /thead>
+            <tbody>
+                {% for field in model_fields %}
+                <td>{{ industry|getattribute:field.name }}</td>
+                {% endfor %}
+            </tbody>
+        </tr>
+    </thead>
+</table>
+"""

@@ -1,0 +1,45 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>QA4IS - Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .image-container img {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to QA4IS</h1>
+        <p><strong>Quality Assurance for Intelligent Systems</strong></p>
+
+        <h2>Introducing... The AQUARIUM</h2>
+        <p>A revolutionary approach to web3 / Blockchain quality assurance.</p>
+
+        <div class="image-container">
+            <img src="{% static 'images/aquarium.jpg' %}" alt="QA4IS Banner">
+        </div>
+
+        <p>Explore our services and innovations in AI-driven quality assurance.</p>
+        <a href="/about">Learn More</a>
+    </div>
+</body>
+</html>
